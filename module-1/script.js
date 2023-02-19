@@ -9,10 +9,12 @@ let count = 0;
 
 
 // event listeners
-incrementEl = addEventListener('click', () => {
+incrementEl.addEventListener('click', () => {
     count++;
+    counterEl.innerText = count;
 })
 
-decrementEl = addEventListener('click', () => {
+decrementEl.addEventListener('click', () => {
     count--;
+    counterEl.innerText = count;
 })
