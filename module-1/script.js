@@ -5,3 +5,14 @@ const decrementEl = document.getElementById('decrement');
 
 
 // initial state
+let count = 0;
+
+
+// event listeners
+incrementEl = addEventListener('click', () => {
+    count++;
+})
+
+decrementEl = addEventListener('click', () => {
+    count--;
+})
